@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vosk-api-master", "vosk-api-master", "{D462787A-B8FB-33F6-A6BB-0316B55A684E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{B2CED9CF-1726-B28A-940A-F818DF90E397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoskDemo", "vosk-api-master\csharp\demo\VoskDemo.csproj", "{C9618D06-E1F0-2A73-C7BB-70A53C842AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9618D06-E1F0-2A73-C7BB-70A53C842AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9618D06-E1F0-2A73-C7BB-70A53C842AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9618D06-E1F0-2A73-C7BB-70A53C842AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9618D06-E1F0-2A73-C7BB-70A53C842AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2CED9CF-1726-B28A-940A-F818DF90E397} = {D462787A-B8FB-33F6-A6BB-0316B55A684E}
+		{C9618D06-E1F0-2A73-C7BB-70A53C842AB5} = {B2CED9CF-1726-B28A-940A-F818DF90E397}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15539A5F-00D1-4ADC-8E1B-AEFFAF7C28EA}
+	EndGlobalSection
+EndGlobal
